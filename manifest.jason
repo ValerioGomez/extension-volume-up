@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Volumen Valerio",
+  "version": "1.0",
+  "description": "Aumenta el volumen de una pestaña hasta un 600%",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["*://*/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "iconos/icon16.png",
+      "48": "iconos/icon48.png",
+      "128": "iconos/icon128.png"
+    }
+  }
+}

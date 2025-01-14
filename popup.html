@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volumen Valerio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            width: 200px;
+        }
+        h3 {
+            margin-bottom: 10px;
+        }
+        input[type="range"] {
+            width: 100%;
+        }
+        .volume-text {
+            text-align: center;
+            margin: 10px 0;
+        }
+        .subscribe {
+            color: red;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Volumen Valerio</h3>
+    <label for="volume-range">Volumen (0% - 600%):</label>
+    <input id="volume-range" type="range" min="0" max="600" step="1" value="100">
+    <div class="volume-text">
+        <span id="volume-value">100</span>%
+    </div>
+    <button id="apply-volume">Aplicar</button>
+    <div class="subscribe">
+        ¡Suscríbete o te quito la extensión!
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
